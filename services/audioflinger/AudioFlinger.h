@@ -1004,6 +1004,8 @@ private:
 
     // Keep in sync with java definition in media/java/android/media/AudioRecord.java
     static constexpr int32_t kMaxSharedAudioHistoryMs = 5000;
+
+#include "EffectDapController.h"
 };
 
 #undef INCLUDING_FROM_AUDIOFLINGER_H
